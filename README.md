@@ -15,3 +15,24 @@ After the investigation, it turns out that the main reason is that customers no 
 # DATA UNDERSTANDING
 Data contains 41,188 rows and 20 columns. However, there are many duplicate rows in the dataset, which we handle first. After that, we are left with 39,404 rows and 20 columns. Our columns include both categorical and numeric values. The target column (y) has binary values (‘yes’ and ‘no’)
 
+Sütunlarımız haqqında məlumatlar:
+	•	age: The customer’s age.
+	•	job: The customer’s profession or field of work.
+	•	marital: The customer’s marital status.
+	•	education: The customer’s education level.
+	•	default: Does the customer have unpaid credit?
+	•	housing: Does the customer have a housing loan?
+	•	loan: Does the customer have a personal loan?
+	•	contact: Type of communication with the customer.
+	•	month: The last month the customer was contacted.
+	•	day_of_week: The day of the week the customer was last contacted.
+	•	campaign: The number of contacts made with this customer during the campaign.
+	•	pdays: Number of days since the customer was last contacted in a previous campaign.
+	•	previous: The number of contacts made with this customer before the campaign.
+	•	poutcome: Outcome of the previous marketing campaign.
+	•	emp_var_rate: Employment variation rate - quarterly indicator.
+	•	cons_price_idx: Consumer price index - monthly indicator.
+	•	cons_conf_idx: Consumer confidence index - monthly indicator.
+	•	euribor_3m: 3-month Euribor rate - daily indicator.
+	•	nr_employed: Number of employees - quarterly indicator.
+	•	y: Has the customer subscribed to a term deposit?
