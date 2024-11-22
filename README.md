@@ -142,12 +142,12 @@ Six different machine learning models were implemented: Logistic Regression, Ran
 **Validation and Metrics:**\
 Each model was tested using 5-fold cross-validation and evaluated using four different metrics: F1 Score, Accuracy, Precision, and Recall.
 
-•	Logistic Regression: CV F1 Score: 0.71, CV Accuracy: 0.74
-•	Random Forest: CV F1 Score: 0.95, CV Accuracy: 0.95
-•	Support Vector Machine: CV F1 Score: 0.72, CV Accuracy: 0.76
-•	K-Nearest Neighbors: CV F1 Score: 0.84, CV Accuracy: 0.82
-•	Decision Tree: CV F1 Score: 0.93, CV Accuracy: 0.92
-•	Naive Bayes: CV F1 Score: 0.62, CV Accuracy: 0.69
+•	Logistic Regression: CV F1 Score: 0.71, CV Accuracy: 0.74\
+•	Random Forest: CV F1 Score: 0.95, CV Accuracy: 0.95\
+•	Support Vector Machine: CV F1 Score: 0.72, CV Accuracy: 0.76\
+•	K-Nearest Neighbors: CV F1 Score: 0.84, CV Accuracy: 0.82\
+•	Decision Tree: CV F1 Score: 0.93, CV Accuracy: 0.92\
+•	Naive Bayes: CV F1 Score: 0.62, CV Accuracy: 0.69\
 
 # RESULT
 In this project, the Random Forest model showed the best performance on the given dataset. For future work, it may be beneficial to further optimize the model’s hyperparameters and collect more data.
