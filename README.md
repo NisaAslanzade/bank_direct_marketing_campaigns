@@ -37,5 +37,37 @@ Sütunlarımız haqqında məlumatlar:\
 	•	nr_employed: Number of employees - quarterly indicator.\
 	•	y: Has the customer subscribed to a term deposit?
 
- 
+Let’s look at and analyze the statistical values of our numeric columns.\ 
 <img width="660" alt="Screenshot 2024-11-22 at 16 11 23" src="https://github.com/user-attachments/assets/6df465f9-93ea-4a06-b07e-619351599e6e">
+
+	1.	age:\
+	•	Average Age (Mean): The average age of customers is approximately 40 years.\
+	•	Minimum and Maximum Age (Min and Max): The age ranges from 17 to 98, showing that the bank serves customers across a wide age spectrum.\
+	•	Standard Deviation (Std): A high standard deviation of 10.46 indicates significant variability in customer ages.\
+	2.	campaign:\
+	•	Average Number of Campaigns (Mean): On average, each customer was part of 2.6 campaigns.\
+	•	Maximum Campaigns (Max): One customer participated in 56 campaigns, indicating that some customers were contacted numerous times.\
+	•	Standard Deviation (Std): A high standard deviation of 2.81 suggests substantial variation in the number of campaigns.\
+	3.	pdays:
+	•	Average Days (Mean): On average, 960 days have passed since the last campaign.\
+	•	Minimum and Maximum Days (Min and Max): Some customers were contacted 0 days after the last campaign, while for others, it was 999 days (likely indicating no prior contact).\
+	•	Standard Deviation (Std): A very high standard deviation of 190.87 reflects extreme variability.\
+	4.	previous:\
+	•	Average Number of Contacts (Mean): On average, customers were contacted 0.18 times during previous campaigns, indicating rare repeat contacts.\
+	•	Maximum Number of Contacts (Max): Some customers were contacted up to 7 times.\
+	5.	emp_var_rate (Employment Variation Rate):\
+	•	Average Rate (Mean): The average employment variation rate is 0.064, indicating a slight positive change.\
+	•	Minimum and Maximum Rate (Min and Max): The rate ranges from -3.4 to 1.4.\
+	6.	cons_price_idx (Consumer Price Index):\
+	•	Average Index (Mean): The average index value is 93.58.\
+	•	Minimum and Maximum Index (Min and Max): Values range from 92.20 to 94.77.\
+	•	Standard Deviation (Std): A low standard deviation of 0.58 suggests relatively stable values.\
+	7.	cons_conf_idx (Consumer Confidence Index):\
+	•	Average Index (Mean): The average index value is -40.50.\
+	•	Minimum and Maximum Index (Min and Max): Values range from -50.8 to -26.9, reflecting overall low consumer confidence.\
+	8.	euribor_3m (3-Month Euribor Rate):\
+	•	Average Rate (Mean): The average Euribor rate is 3.60.\
+	•	Minimum and Maximum Rate (Min and Max): The rate varies between 0.63 and 5.04, showing variability in interbank rates.\
+	9.	nr_employed (Number of Employees):\
+	•	Average Number (Mean): The average number of employees is 5165.98.\
+	•	Minimum and Maximum Number (Min and Max): The number ranges from 4963 to 5228, indicating relatively stable quarterly employment levels.
